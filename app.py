@@ -1,5 +1,5 @@
 from flask import Flask,redirect,url_for
-from class1 import kiran
+
 
 app=Flask(__name__)
 
