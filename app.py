@@ -5,9 +5,7 @@ app=Flask(__name__)
 
 
 @app.route("/")
-def home():
-    k=kiran()
-    return k.other()
+
 @app.route("/home/<int:num>")
 def hello(num):
     return f"<h1>you number is {num},  and the sum {num+10}</h1>"
